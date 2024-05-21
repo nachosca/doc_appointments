@@ -7,7 +7,7 @@ The objective of this app is to offer the doctor's available slots to the patien
 
 Pre requisites to run this app:
 - Having installed Ruby
-- Executing 'bundle install'
+- Executing `bundle install`
 
 Optional:
 - To reset the database and load the seeds execute: `rake db:drop && rake db:create && rake db:migrate && rake db:seed`
@@ -17,7 +17,7 @@ Optional:
 Running the app:
 - Execute `rails s` to start the server.
 - With postman or any other app, hit the endpoints.
-- You can find the file 'postman_collection.json', where you can import it into postman
+- You can find the file 'postman_collection.json', where you can import it into postman. It contains all the requests.
 
 ## Models
 
